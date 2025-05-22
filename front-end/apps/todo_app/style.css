@@ -1,0 +1,102 @@
+body{
+    border: 1px solid black;
+    padding: 50px;
+    width: 70%;
+	min-height: 600px;
+    margin: 20px auto 20px auto;
+    background-color: rgb(248,248,248);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	box-shadow: 0 4px 8px 0px rgba(0,0,0,1);
+}
+
+.container{
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1{
+	text-align: center;
+	color: #333;
+	margin-bottom: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input-section{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+#new-task{
+	flex-grow: 1;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px 0 0 4px;
+	font-size: 16px;
+}
+
+#add-button{
+	background-color: #5cb85c;
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 0 4px 4px 0;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+#add-button:hover{
+	background-color: #4cae4c;
+}
+
+#todo-list{
+	list-style: none;
+	padding: 0;
+}
+
+#todo-list li{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0px;
+	border-bottom: 1px solid #eee;
+}
+
+#todo-list li:last-child{
+	border-bottom: none;
+}
+
+.task-text{
+	flex-grow: 1;
+	margin-right: 10px;
+}
+
+.completed{
+	text-decoration: line-through;
+	color: #888;
+}
+
+.action button{
+	background: none;
+	border: none;
+	cursor: pointer;
+	margin-left: 5px;
+	font-size: 14px;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+.actions .complete-button{
+	color: green;
+}
+
+.actions .delete-button{
+	color: red;
+}
+
+.actions button:hover{
+	opacity: 0.8;
+}

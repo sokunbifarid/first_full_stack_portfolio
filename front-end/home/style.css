@@ -1,0 +1,84 @@
+
+body{
+    border: 1px solid black;
+    padding: 50px;
+    width: 70%;
+    min-height: 600px;
+    margin: 20px auto 20px auto;
+    background-color: rgb(248,248,248);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 4px 8px 0px rgba(0,0,0,1);
+}
+
+.introduction{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 20px 0px;
+    padding: 0px 30px;
+}
+
+.description{
+    max-width: 450px;
+}
+
+.description p{
+    text-align: justify;
+}
+
+.introduction img{
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.introduction h2{
+    font-size:xx-large;
+}
+
+
+.tools{
+    display: flex;
+    padding: 20px 30px;
+}
+
+.tools-holder h2{
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.tools a{
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+.buttons{
+    background-color: gainsboro;
+    text-align: center;
+    border-radius: 2.5%;
+    padding: 40px 30px;
+    max-width: 130px;
+    max-height: 182px;
+    color: black;
+}
+
+.buttons:hover{
+    background-color: #7A9598;
+    color: white;
+}
+
+.buttons::after{
+    background-color: gainsboro;
+    color: black;
+}
+
+.skills h2{
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}

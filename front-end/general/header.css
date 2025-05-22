@@ -1,0 +1,41 @@
+.logo-name{
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-self: center;
+    padding-left: 20px;
+}
+
+.logo a{
+    display: flex;
+    padding: 0px 20px 15px 20px;
+    border-bottom: 1px solid black;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    padding: 20px;
+    /* border-bottom: 1px solid black; */
+    margin: 50px 0px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    background-color:gainsboro;
+    border-radius: 12%;
+    padding: 15px 25px;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav a:hover{
+    background-color: #7A9598;
+    color: white;
+}
+
+nav a::after{
+    background-color: gainsboro;
+    color: black;
+}
